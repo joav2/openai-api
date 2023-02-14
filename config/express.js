@@ -1,3 +1,4 @@
+const compression = require("compression");
 const express = require("express");
 const bodyParser = require("body-parser");
 const config = require("config");
@@ -7,6 +8,9 @@ require('dotenv').config({ path: './.env' });
 
 module.exports = () => {
     const app = express();
+
+    // compress all responses
+    app.use(compression());
 
     // SETANDO VARIÁVEIS DA APLICAÇÃO
     app.set('port', process.env.PORT || config.get('server.port'));
