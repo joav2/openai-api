@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "pm2 start server.js",
+    "build": "pm2 start server.js",
     "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
