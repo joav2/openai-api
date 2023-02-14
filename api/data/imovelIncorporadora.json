@@ -1,0 +1,13 @@
+{
+  "imovelIncorporadora": {
+    "data": {
+      "categorizacao": "Quais as categorias e suas sub-categorias relacionadas? Qual o sentimento de cada sub-categoria? Qual polaridade (negativo/neutro/positivo) de cada sub-categoria?",
+      "categorizacaoAutonoma": "Extraia as principais categorias dos feedbacks de clientes da empresa listados abaixo.",
+      "loopTemplate": "Qual a melhor resposta a ser dada para esse cliente?",
+      "planoAcao": "Monte um plano de ação detalhado para resolver essa situação.",
+      "sumarizacao": "Faça um resumo dos feedbacks de clientes da empresa listados abaixo.",
+      "estratificacao": "Extraia as principais entidades dos feedbacks de clientes da empresa listados abaixo.",
+      "buscaSemantica": "search_reviews(df, 'infiltração', n=5)"
+    }
+  }
+}

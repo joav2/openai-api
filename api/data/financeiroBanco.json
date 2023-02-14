@@ -1,0 +1,9 @@
+{
+  "financeiroBanco": {
+    "data": {
+      "categorizacao": "Analise os dois feedbacks de cliente diferentes abaixo e liste até 05 categorias que se repetem entre os dois feedbacks, caso haja.",
+      "loopTemplate": "Gere uma resposta em tópicos, longa, personalizada, cordial e delicada para a cliente pedindo desculpas e mostrando ações a cada um dos problemas listados pela cliente em tópicos para cada problema nesse feedback de cliente abaixo.",
+      "estratificacao": "Extraia a nota, se possível, dos feedbacks abaixo de clientes de um banco. Se não tiver explícita nota tentar estimar qual seria a nota (sinalize com um * para todas as notas estimadas). Caso a nota estimada não tenha mais de 95% de certeza, insira um '?' no resultado."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "saudeHospital": {
+    "data": {
+      "categorizacao": "Analise esse feedback do cliente abaixo categorizando em categorias principais e subcategorias sobre cada um dos temas falados, liste os sentimentos que a cliente teve nesse feedback, faça a polarização dos sentimentos listados entre negativo, neutro, positivo, e meça a intensidade do feedback do cliente numa escala 0 a 10, e faça um resumo do feedback do cliente em até 10 palavras.",
+      "loopTemplate": "Gere uma resposta em tópicos, longa, personalizada, cordial e delicada para a cliente pedindo desculpas e mostrando ações a cada um dos problemas listados pela cliente em tópicos para cada problema nesse feedback de cliente abaixo. É importante mencionar de forma empática que mesmo assim não conseguimos imaginar a dor que ela sofreu no parto de seu filho.",
+      "planoAcao": "Gere um plano de ação detalhado em tópicos para o hospital resolver cada um dos problemas listados pela cliente."
+    }
+  }
+}

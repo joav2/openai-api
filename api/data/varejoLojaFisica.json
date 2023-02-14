@@ -1,0 +1,8 @@
+{
+  "varejoLojaFisica": {
+    "data": {
+      "loopTemplate": "Gere uma resposta em tópicos, longa, personalizada, cordial e delicada para a cliente pedindo desculpas e mostrando ações a cada um dos problemas listados pela cliente em tópicos para cada problema nesse feedback de cliente abaixo.",
+      "planoAcao": "Gere um plano de ação detalhado em tópicos para o hospital resolver cada um dos problemas listados pela cliente."
+    }
+  }
+}
