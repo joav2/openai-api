@@ -8,7 +8,6 @@ module.exports = app => {
 
     controller.categorizacaoFinanceiroBanco = async (req, res) => {
         const pergunta = req.body.pergunta ?? "";
-
         if (pergunta.trim().length === 0) {
             res.status(400).json({
                 error: {

@@ -7,20 +7,21 @@ const consign = require("consign");
 // environment 
 require('dotenv').config({ path: './.env' });
 
+let corsOptions = {
+    origin: '*',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
 module.exports = () => {
     const app = express();
-
-    // compress all responses
-    app.use(compression());
-    app.use(cors());
     // SETANDO VARIÁVEIS DA APLICAÇÃO
     app.set('port', process.env.PORT || config.get('server.port'));
 
-    // CONFIG default
+    // CONFIG default // MIDDLEWARES
+    app.use(compression());
+    app.use(cors(corsOptions));
     app.use(express.json()) // for parsing application/json
     app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
-
-    // MIDDLEWARES
     app.use(bodyParser.json());
 
     // ENDPOINTS
