@@ -1,3 +1,4 @@
+const classificacao = require("../../lib/classificacaoOpenAI");
 const pergunte = require("../../lib/pergunteOpenAI");
 
 module.exports = app => {
@@ -18,7 +19,7 @@ module.exports = app => {
             return;
         }
         try {
-            const data = await pergunte(saudeHospitalDB.saudeHospital.data.categorizacao, pergunta);
+            const data = await classificacao(saudeHospitalDB.saudeHospital.data.categorizacao, pergunta);
 
             res.send(data);
         } catch (err) {
